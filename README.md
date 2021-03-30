@@ -111,3 +111,44 @@ programa
 	}
 }
 
+EX5:
+programa
+{
+	funcao inicio()
+	{
+		inteiro opcao
+		real n,n2
+		
+		escreva("Digite o primeiro número: \n")
+		leia(n)
+		escreva("Digite o segundo número: \n")
+		leia(n2)
+		
+
+		escreva("Escolha uma opção 1:para somar os dois números \n")
+		escreva("Escolha uma opção 2:para subtrair os dois números \n")
+		escreva("Escolha uma opção 3:para multiplicar os dois números \n")
+		escreva("Escolha uma opção 4:para dividir os dois números \n")
+		leia(opcao)
+
+		limpa()
+
+		escolha (opcao)	
+		{
+			caso 1: 
+		 		escreva ("A soma  "+n+" + "+n2+" resulta em : "+(n+n2))
+		 		pare   
+		 	caso 2: 
+		 		escreva ("A subtração : "+n+" - "+n2+" resulta em : "+(n-n2))
+		 		pare   
+		 	caso 3: 
+		 		escreva ("A multiplicação : "+n+" * "+n2+" resulta em : "+(n*n2))
+		 		pare
+		 	caso 4: 
+		 		escreva ("A divisão : "+n+" ÷ "+n2+" resulta em : "+(n/n2))
+		 		pare
+		}
+
+		escreva("\n")
+	}
+}
