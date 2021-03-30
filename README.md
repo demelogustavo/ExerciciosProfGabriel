@@ -256,4 +256,21 @@ programa
 		
 	}
 }
+EX 11:
+programa
+{
+	inteiro n,i,total=0
+	funcao inicio()
+	{
+		
+		para(i=1;i<=10;i++){
+			escreva("Digite o "+i+"º número: ")
+		    leia(n)
+		    escreva(n)
+			total=i+total/10
+			
+			}
+		escreva("a média aritmética destes 10 números é: "+total+"\n")
+	}
+}
 
