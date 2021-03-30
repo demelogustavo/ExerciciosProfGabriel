@@ -242,5 +242,18 @@ programa {
     }
 }
 }
-
+EX 10:
+programa
+{
+	inteiro n,i
+	funcao inicio()
+	{
+		escreva("Digite um número: ")
+		leia(n)
+		para(i=1;i<=n;i++){
+			escreva(i+"\n")
+			}
+		
+	}
+}
 
