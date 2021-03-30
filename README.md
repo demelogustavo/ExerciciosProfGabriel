@@ -202,4 +202,25 @@ programa
 
 	}
 }
+EX 8:
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Ordem decrescente de 1 a 10: \n")
+		escreva("10\n")
+		escreva("9\n")
+		escreva("8\n")
+		escreva("7\n")
+		escreva("6\n")
+		escreva("5\n")
+		escreva("4\n")
+		escreva("3\n")
+		escreva("2\n")
+		escreva("1\n")
+
+
+	}
+}
 
