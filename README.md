@@ -223,4 +223,24 @@ programa
 
 	}
 }
+EX9:
+programa {
+    funcao inicio() {
+        inteiro n=100
+
+
+
+
+        para(inteiro i = 100 ; i < 140 ; i++) {
+            se((i > 100) e (i % 1 == 0)e (i%i==0) e i%2!=0 e i%5 !=0 e i%7 !=0 e i%9 !=0 e i%3 !=0){
+                escreva("\n"+i)
+
+                
+            
+        }  
+        
+    }
+}
+}
+
 
