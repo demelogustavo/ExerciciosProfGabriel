@@ -71,4 +71,43 @@ programa
 		 
 	}
 }
+EX4:
+programa
+{
+	real var
+	real c
+	real d
+	real soma=0
+	funcao inicio()
+	{
+		escreva("Digite primeiro valor: ")
+		leia(var)
+	     escreva("Digite segundo valor: ")
+	     leia(c)
+	     escreva("Digite terceiro valor: ")
+	     leia(d)
+
+	     se(var>c e var>d e c>d){
+             escreva(var+" é o maior valor: ")
+           soma=soma+var+d
+           escreva("a soma dos maiores valores é: "+soma)
+
+   
+	     	}
+	     	 se(c>var e c>d e var>d){
+             escreva(c+" é o maior valor: ")
+             soma=soma+c+var
+             escreva("a soma dos maiores valores é: "+soma)
+
+
+	     	}
+	     	 se(d>c e d>var e c>var){
+             escreva(d+" é o maior valor: ")
+             soma=soma+d+c
+               escreva("a soma dos maiores valores é: "+soma)
+
+	     	}
+	
+	}
+}
 
