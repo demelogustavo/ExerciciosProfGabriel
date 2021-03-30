@@ -152,3 +152,33 @@ programa
 		escreva("\n")
 	}
 }
+EX6:
+programa
+{
+	
+	funcao inicio()
+	{
+	real n,n2
+		
+		escreva("Digite o primeiro número: \n")
+		leia(n)
+		escreva("Digite o segundo número: \n")
+		leia(n2)
+
+		se(n==n2){
+			escreva("Números iguais")
+			
+			}
+			 senao se(n>n2){
+			 	escreva("Primeiro é maio")
+			 	
+			 	}
+			 	senao se(n2>n){
+			 	escreva("Segundo é maio")
+			 	
+			 	}
+			
+
+	}
+}
+
