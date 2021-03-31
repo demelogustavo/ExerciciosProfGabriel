@@ -289,3 +289,19 @@ programa
 		escreva("a soma destes 10 números é: "+total+"\n")
 	}
 }
+EX 13 :
+programa
+{
+	inteiro n,i,total=0
+	funcao inicio()
+	{
+		
+		para(i=1;i<=10;i++){
+			escreva("Digite o "+i+"º número: \n")
+		     leia(n)
+			total=n+total
+			
+			}
+		escreva("a soma destes 10 números é: "+total+"\n")
+	}
+}
