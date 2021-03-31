@@ -392,6 +392,21 @@ programa
 
 
 17:
+programa
+{
+	
+	funcao inicio()
+	{
+	real altura,imc,peso
+		escreva("Digite seu peso")
+		leia(peso)
+		escreva("Digite sua altura")
+		leia(altura)
+		imc=peso/(altura*altura)
+		escreva("Seu Imc é: "+imc)
+	}
+}
+
 
 18:
 
