@@ -426,4 +426,27 @@ programa
 
 
 19:
+programa
+{
+	
+	funcao inicio()
+	{
+	real a,b,troca=0
+	
+		escreva("Digite o valor(numérico) da variável A: ")
+	     leia(a)
+	     escreva("Digite o valor(numérico) da variável B: ")
+	     leia(b)
+
+	     troca=a
+	     a=b
+	     b=troca
+	     escreva("O novo valor de A é: "+a)
+	     escreva("O novo valor de B é: ",b)
+	
+	
+	
+	}
+}
+
 
