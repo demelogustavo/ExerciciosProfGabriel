@@ -359,6 +359,37 @@ programa
 
 
 16:
+programa
+{
+	
+	funcao inicio()
+	{
+	real n1,n2,media
+		escreva("Digite a sua 1ª nota ")
+		leia(n1)
+
+
+
+         escreva("Digite sua 2ª nota ")
+         leia(n2)
+
+         media=(n1+n2)/2
+
+         se(media>=7){
+         	escreva("Aprovado sua média é: ")
+         	escreva(media)
+        
+         	}
+         senao{
+         	escreva("Reprovado sua média é: ")
+         	escreva(media)
+         	
+         	}
+        
+     
+	}
+}
+
 
 17:
 
