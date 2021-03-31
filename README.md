@@ -341,6 +341,22 @@ programa
 }
 
 15:
+programa
+{
+	
+	funcao inicio()
+	{
+	real total=8.190
+	inteiro n
+	     escreva("Em quantas vezes você quer pagar\n")
+		escreva("O drone de artesanal de R$:8.190\n")
+		leia(n)
+		escreva("você irá pagar "+n+" parcelas de "+(total/n))
+		
+		
+	}
+}
+
 
 16:
 
