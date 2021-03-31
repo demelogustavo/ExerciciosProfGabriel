@@ -315,6 +315,30 @@ funcao inicio()
         escreva(soma)
     }
     14:
+programa
+{
+	
+	funcao inicio()
+	{
+	real prova1,prova2,prova3,prova4,media
+	
+	escreva("escreva nota da primeira prova: ")
+	leia(prova1)
+	escreva("escreva nota da segunda prova: ")
+	leia(prova2)
+	escreva("escreva nota da terceira prova: ")
+	leia(prova3)
+	escreva("escreva nota da quarta prova: ")
+	leia(prova4)
+
+
+     media=(prova1+prova2+prova3+prova4)/4
+     escreva("sua nota final é: "+media)
+	
+	
+	
+	}
+}
 
 15:
 
