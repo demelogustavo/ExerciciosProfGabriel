@@ -1,0 +1,20 @@
+Natalie Portman foi indicada ao oscar 2 vezes até o ano de 2010
+venceu 1 vez, com "Black Swan - 2010"
+
+SELECT * FROM `vencedoresdooscar` WHERE Nominee = "Natalie Portman"
+
+Amy Adams nunca ganhou um oscar, porém, foi indicada 3 vezes.
+SELECT * FROM `vencedoresdooscar` WHERE Nominee = "Amy adams"
+
+Toy Story 3 ganhou 2 oscars em 2010 em melhor animação e melhor trilha sonora.
+SELECT * FROM `vencedoresdooscar` WHERE Nominee = "Toy Story 3"
+
+Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?
+ator:85 
+filme:83
+A categoria "Melhor Filme" possui mais Oscars
+códigos:
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Category='Actor -- Leading Role' and Won='Yes'
+(Para Ator)
+SELECT COUNT(*) FROM `vencedoresdooscar` WHERE Category='Best Picture' and Won='YES'
+(Para Filme)
